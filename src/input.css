@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: white;
+    padding-bottom:200rem ;
+}
+
+
+header{
+    background-color: #FFAA5A;
+}
+
+
+.title{
+    font-size: xx-large;
+   font-weight:100;
+    color: black;
+    margin-left:50rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.introduction {
+    color: black;
+background-color:#FFCF4C;
+    margin-top: 2rem;
+    margin-right: 50rem;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    width: 63rem;
+    height: 16rem;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.more{
+    color: black;
+    background-color:#F49FBC;
+    margin-top: 2rem;
+    margin-right: 50rem;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    width: 63rem;
+    height: 16rem;
+    border-radius: 0% 50% 50% 0%;
+}
+
+
+footer{
+    background-color: #FFAA5A;
+
+}
