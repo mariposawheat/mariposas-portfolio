@@ -4,25 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../dist/output.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <title>Mariposa's Portfolio</title>
 </head>
-<body>
+<body class="bg-white mx-auto text-black my-auto">
 <header>
-    <div class="title">
-About me
+    <div id="mx-96 p-14 bg-orange-400">
+        <div class=" text-4xl font-light whitespace-normal text-center">
+            About me
+        </div>
     </div>
 </header>
 
-<p class="introduction">
-    Hello there! My name is Mariposa Wheat, Im 19 years of age and this page is about my ever-growing portfolio!
+<p class="box-border bg-yellow-300 rounded-ee-2xl my-4 py-20 w-2/3 ">
+    Hello there! My name is Mariposa Wheat, I'm 19 years of age and this page is about my ever-growing portfolio!
 </p>
 
-<p class="more">
+<p class="w-2/3 ml-auto bg-pink-300 py-20">
     I am a junior web developer, and a graphic designer as well. I have worked with adobe products such as Photoshop,Illustrator, Premiere Pro and After Affects
 </p>
 
-<footer>
-    Thank you for looking through my portfolio, leave your name, email and message if you wish to contect me, thank you!
+<div class="carousel min-h-full w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+        <img src="SS_Cherry_Wallpaper_04.png" class=" w-auto " alt="cherry" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+    </div>
+    <div id="slide2" class="carousel-item relative w-full">
+        <img src="wallpaper_minecraft_warm_ocean_1140x2560.png" class="w-auto" alt="ocean" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+    </div>
+    <div id="slide3" class="carousel-item relative w-full">
+        <img src="wallpaper_minecraft_fireplace_1140x2560.png" class="w-auto" alt="fire" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+    </div>
+    <div id="slide4" class="carousel-item relative w-full">
+        <img src="wallpaper_minecraft_beach_3840x2160.png" class="w-auto" alt="beach" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+<footer class=" bg-orange-400 py-20 mt-96">
+    Thank you for looking through my portfolio, leave your name, email and message if you wish to contact me, thank you!
 </footer>
 </body>
 </html>
