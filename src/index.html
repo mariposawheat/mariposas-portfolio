@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,58 +8,105 @@
     <title>Mariposa's Portfolio</title>
 </head>
 <body class="bg-white mx-auto text-black my-auto">
-<header>
-    <div id="mx-96 p-14 bg-orange-400">
-        <div class=" text-4xl font-light whitespace-normal text-center">
+<header class=" bg-orange-400 py-20 mt-full object-center">
+    <div id=" flex justify-center py-20">
+        <div class="text-4xl font-light whitespace-normal text-center ">
             About me
         </div>
     </div>
 </header>
 
-<p class="box-border bg-yellow-300 rounded-ee-2xl my-4 py-20 w-2/3 ">
+<p class=" align-middle rounded-r-3xl bg-yellow-300 my-10 pl-4 py-20 w-2/3">
     Hello there! My name is Mariposa Wheat, I'm 19 years of age and this page is about my ever-growing portfolio!
 </p>
 
-<p class="w-2/3 ml-auto bg-pink-300 py-20">
-    I am a junior web developer, and a graphic designer as well. I have worked with adobe products such as Photoshop,Illustrator, Premiere Pro and After Affects
+<p class=" align-middle w-2/3 ml-auto bg-pink-300 p-20 rounded-l-3xl">
+    I am a junior web developer, and a graphic designer as well. I have worked with adobe products such as Photoshop,Illustrator, Premiere Pro and After Affects for about 4 years, with a teensy bit of blender experience as well.
 </p>
 
-<div class="carousel min-h-full w-full">
+<div id="carousel" class="carousel h-83 w-full bg-black mt-56 rounded-3xl">
     <div id="slide1" class="carousel-item relative w-full">
-        <img src="SS_Cherry_Wallpaper_04.png" class=" w-auto " alt="cherry" />
+        <img src="Fam.jpg" class="p-56" alt="family" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
     </div>
     <div id="slide2" class="carousel-item relative w-full">
-        <img src="wallpaper_minecraft_warm_ocean_1140x2560.png" class="w-auto" alt="ocean" />
+        <img src="Annotation%202020-09-01%20232001.jpg" class="p-56" alt="donut" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a>
             <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
     </div>
     <div id="slide3" class="carousel-item relative w-full">
-        <img src="wallpaper_minecraft_fireplace_1140x2560.png" class="w-auto" alt="fire" />
+        <img src="lil%20(1).jpg" class="p-56" alt="a character of mine" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide4" class="btn btn-circle">❯</a>
-        </div>
-    </div>
-    <div id="slide4" class="carousel-item relative w-full">
-        <img src="wallpaper_minecraft_beach_3840x2160.png" class="w-auto" alt="beach" />
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a>
             <a href="#slide1" class="btn btn-circle">❯</a>
         </div>
     </div>
-</div>
 
 </div>
+<footer class=" bg-orange-400 py-20 mt-60 object-center">
+    <section class="">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-light text-center text-black">Contact Me</h2>
+            <form action="https://formsubmit.co/mariposawheat@gmail.com" method="POST" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-black">Your email</label>
+                    <input type="email" id="email" class=" bg-white border text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:placeholder-gray-400 dark:text-black dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@email.com" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900">Subject</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500  dark:placeholder-gray-400 dark:text-black dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Subject" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Your message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border  focus:ring-primary-500 focus:border-primary-500 dark:placeholder-gray-400 dark:text-black dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a message!"></textarea>
+                </div>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-yellow-300 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            </form>
+            <a href="https://github.com/mariposawheat?tab=repositories">
+            <button
 
+                    type="button"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                    class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                    style="background-color: #333">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4"
+                        fill="currentColor"
+                        viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+            </button>
+            </a>
 
-<footer class=" bg-orange-400 py-20 mt-96">
-    Thank you for looking through my portfolio, leave your name, email and message if you wish to contact me, thank you!
+<a href="https://www.linkedin.com/in/mariposa-wheat-331763243/">
+                <button
+                        type="button"
+                        data-te-ripple-init
+                        data-te-ripple-color="light"
+                        class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                        style="background-color: #0077b5"
+                >
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-4 w-4"
+                            fill="currentColor"
+                            viewBox="0 0 24 24">
+                        <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+
+                    </svg>
+                </button>
+</a>
+        </div>
+
+    </section>
+
 </footer>
 </body>
 </html>

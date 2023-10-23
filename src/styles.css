@@ -1,12 +1,25 @@
 
 
 
-
-
-body{
-    background-color: white;
-    padding-bottom:90rem
+.align-middle {
+    flex-wrap: wrap;
 }
+
+
+
+@media screen and (min-width: 480px) {
+ .carousel,
+    #slide1,
+    #slide2,
+    #slide3
+
+}
+
+
+/*body{*/
+/*    background-color: white;*/
+/*    padding-bottom:90rem*/
+/*}*/
 
 
 /*header{*/
@@ -24,18 +37,18 @@ body{
 /*    padding-bottom: 3rem;*/
 /*}*/
 
-.introduction {
-    color: black;
-    background-color:#FFCF4C;
-    margin-top: 2rem;
-    margin-right: 50rem;
-    padding-top:3rem;
-    padding-bottom: 3rem;
-    width: 63rem;
-    height: 16rem;
-    border-radius: 0% 20% 20% 0%;
+/*.introduction {*/
+/*    color: black;*/
+/*    background-color:#FFCF4C;*/
+/*    margin-top: 2rem;*/
+/*    margin-right: 50rem;*/
+/*    padding-top:3rem;*/
+/*    padding-bottom: 3rem;*/
+/*    width: 63rem;*/
+/*    height: 16rem;*/
+/*    border-radius: 0% 20% 20% 0%;*/
 
-}
+/*}*/
 
 /*.more{*/
 /*    color: black;*/
